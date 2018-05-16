@@ -1,0 +1,49 @@
+{
+    "state": 0,
+    "theme": "波について",
+    "groupName": "TOHOKU Inavators",
+    "startTime": 1477802184,
+    "timeTable": [
+        {
+            "state": "0",
+            "time": 5,
+            "subTheme": "物理学視点から"
+        },
+        {
+            "state": "1",
+            "time": 2,
+            "subTheme": "休憩"
+        },
+        {
+            "state": "0",
+            "time": 10,
+            "subTheme": "自然現象の視点"
+        }
+    ],
+    "lock": 0,
+    "keywords": [
+
+    ],
+    "important_key": {
+        "光": 3,
+        "振動": 3,
+        "二": 3
+    },
+    "users": [
+        {
+            "id": "35570906537696",
+            "name": "尾池俊行",
+            "prob": 26880
+        },
+        {
+            "id": "359801055360810",
+            "name": "伊藤鈴乃介",
+            "prob": 18400
+        },
+        {
+            "id": "867258020308702",
+            "name": "塚本　竜広",
+            "prob": 25840
+        }
+    ]
+}

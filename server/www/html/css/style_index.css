@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------ */
+
+body{
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+div#wrapper{
+  width: 1000px;
+  min-height: 670px;
+  margin:0 auto;
+  background-image: url(../img/backpic.jpg);
+  background-size:auto 100%;
+}
+div#id001{
+  height: 60px;
+  line-height:60px;
+  background-color: rgba(0,0,100,0.7);
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  float: center;
+}
+div#id002{
+  width:610px;
+  height:40px;
+  line-height: 40px;
+  margin:150px auto 0;
+  padding:0px 20px;
+  background-color: rgba(100,0,100,0.7);
+  font-size: 150%;
+  color: white;
+  float: center;
+}
+#input1, #input2{
+    display: inline-block;
+    vertical-align:middle;
+}
+.input3{
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+div#id003{
+  width:610px;
+  height:40px;
+  line-height: 40px;
+  margin:0 auto 30px;
+  padding:0px 20px;
+  background-color: rgba(0,100,100,0.7);
+  font-size: 150%;
+  color: white;
+  float: center;
+}
+#sendButtonText {
+  font-size: 20px;
+}
+
+.pulldown{
+  width: 200px;
+}
+button#button1{
+  width:650px;
+  height:60px;
+  margin: 30px auto;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  border:none;
+  background-color: rgba(192, 57, 43, 0.85);
+}
+#button_add{
+    width:650px;
+    height:30px;
+    line-height: 30px;
+    font-size:20px;
+    color:#fff;
+    margin: 16px auto;
+    display: block;
+    background: rgba(243, 156, 18, 0.85);
+    border: none;
+}
+table{
+  width: 650px;
+  border-collapse: collapse;
+  margin: 20px auto 0;
+  color: white;
+  table-layout: fixed;
+  background-color: rgba(100,0,100,0.7);
+  border:1px solid #dfdfdf;
+}
+table tr{
+  border-bottom: 1px solid #dfdfdf;
+}
+table th{
+  /*border-right: 1px solid #dfdfdf;*/
+  height: 30px;
+  line-height: 30px;
+}
+
+table td {
+    border-right: 1px solid #dfdfdf;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+}
+

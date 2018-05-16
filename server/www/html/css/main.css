@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------ */
+
+body{
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+.row{
+  clear:both;
+}
+div#wrapper{
+  width: 1000px;
+  min-height:670px;
+  margin:0 auto;
+  background-image: url(../img/backpic.jpg);
+  background-size: auto 100%
+}
+div#groupName{
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  float: left;
+  background-color: rgba(192, 57, 43, 0.85);
+  font-size:30px;
+  text-align: center;
+}
+div#theme{
+  width:  600px;
+  height: 60px;
+  line-height: 60px;
+  float: right;
+  background-color: rgba(41, 128, 185, 0.85);
+  font-size:30px;
+  text-align: center;
+}
+div#subTheme{
+  width:600px ;
+  height:100px;
+  line-height: 100px;
+  float: left;
+  background-color: rgba(39, 174, 96, 0.85);
+  font-size:50px;
+  text-align: center;
+}
+div#progress{
+  width:400px;
+  height:100px;
+  line-height: 50px;
+  float:right;
+  background-color: rgba(211, 84, 0, 0.85);
+  font-size:30px;
+  text-align: center;
+}
+div#userList{
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: rgba(236, 240, 241, 0.85);
+  font-size:150%;
+  text-align: center;
+  float: right;
+}
+#userListUl{
+  /*list-style: square;*/
+}
+#userList ul li{
+  color: #444;
+  font-size:50px;
+  height:50px;
+  line-height: 50px;
+  text-align: left;
+  width:300px;
+  float:left;
+}
+.userListMark{
+  width:30px;
+  height:30px;
+  margin:10px;
+  float: left;
+  display: inline-block;
+}
+.userListLi{
+  color: #444;
+  font-size:30px;
+  height:50px;
+  display: inline-block;
+}
+div#keywords{
+  width: 1000px;
+  height:160px;
+  padding: 0px 0px 100px 0px;
+  margin:  0px 0px -20px 0px;
+  background-color: rgba(100,40,40,0.85);
+  font-size:300%;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+div#chartContainer{
+  width: 400px;
+  height: 400px;
+  float: left;
+  background-color: rgba(149, 165, 166, 0.85);
+}
+div#msgBox{
+  margin:  20px 0px 0px 0px;
+  font-size :35px;
+  background-color: rgba(52, 73, 94, 0.85);
+  height :110px;
+  width :1000px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+#progBox{
+  height:50px;
+}
+#progBox2{
+  height:50px;
+}
+#keyList{
+  width:600px;
+  height:250px;
+  background: rgba(142, 68, 173, 0.85);
+  float:right;
+}
+#impKey li{
+  width:290px;
+  padding: 0 0 0 10px;
+  height:50px;
+  float:left;
+  line-height: 50px;
+  font-size:30px;
+}
+.moji{
+  position:absolute;
+  min-width: 200px;
+  height: 110px;
+  line-height: 110px;
+}
+
